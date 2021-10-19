@@ -37,3 +37,10 @@ cd original-project-DAD / backend
 npm install
 ```
 
+
+##  Construido con
+
+* [ Visual Studio Code ] (https://code.visualstudio.com/): el editor utilizado en este proyecto
+* [ Node.js ] (https://nodejs.org/): Node.js® es un tiempo de ejecución de JavaScript integrado en el motor de JavaScript V8 de Chrome.
+* [ MySQL Workbench ] (https://www.mysql.com/products/workbench/): MySQL Workbench es una herramienta visual unificada para arquitectos de bases de datos, desarrolladores y administradores de bases de datos.
+
