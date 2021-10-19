@@ -4,7 +4,7 @@ Es una aplicación que he creado para mostrar el stock de tienda de zapatillas y
 
 ## Para empezar
 
-Descarga el proyecto: https://github.com/pablopuch/original-project-DAD.git
+Descarga el proyecto: https://github.com/pablopuch/proyecto-final-DAD.git
 
 ## Requisitos
 
@@ -18,7 +18,7 @@ Necesita un entorno de trabajo con:
 La mejor opción para empezar con este proyecto es clonarlo en tu PC:
 
 ```
-git clone https://github.com/pablopuch/original-project-DAD.git
+git clone https://github.com/pablopuch/proyecto-final-DAD.git
 ```
 
 Este proyecto contiene 2 partes diferentes:
