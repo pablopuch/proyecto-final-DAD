@@ -13,7 +13,7 @@ export class LoginService {
   }
 
   loggedIn(){
-    return !!localStorage.getItem('token');
+    return !localStorage.getItem('token');
   }
 
   getToken() {

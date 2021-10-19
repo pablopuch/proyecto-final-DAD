@@ -21,8 +21,10 @@ export class LoginComponent implements OnInit {
 
   public submit(): void {
       this.loginService.login(this.user).subscribe((data: number) => {
+        console.log("comienzo");
         localStorage.setItem('userName', this.user.name);
         localStorage.setItem('personalToken',`${ data }`);
+        console.log("fin");
         this.router.navigate(['/list']);
       },
       (error: Error) => {

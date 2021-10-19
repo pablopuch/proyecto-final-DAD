@@ -11,7 +11,6 @@ const httpOptionsUsingUrlEncoded = {
   headers: new HttpHeaders({ 'Content-Type': 'application/x-www-form-urlencoded' })
 };
 
-
 @Injectable({
   providedIn: 'root'
 }) 
@@ -25,6 +24,5 @@ export class ZapatillasService {
   getZapatillas(): Observable<Zapatilla[]>{
     return this.httpClient.get<Zapatilla[]>(this.endpoint)
   }
-
 
 }

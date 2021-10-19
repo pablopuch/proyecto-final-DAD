@@ -20,7 +20,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-@CrossOrigin (origins = "http://localhost:8100")
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 public class ZapatillaController {
 	
