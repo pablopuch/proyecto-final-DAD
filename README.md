@@ -30,11 +30,14 @@ Necesita un entorno de trabajo de node.js. Se recomienda el LTS: https://nodejs.
 Una vez que haya clonado el proyecto, instale todas las dependencias.
 
 ```
-cd original-project-DAD / frontend
+cd proyecto-final-DAD / frontend
 npm install
 
-cd original-project-DAD / backend
+cd proyecto-final-DAD / backend
 npm install
+
+cd proyecto-final-DAD / frontend
+ng serve -o
 ```
 
 
