@@ -1,0 +1,13 @@
+nav {
+    background-color: #000;
+}
+
+img {
+    width: 210px;
+    height: 135px;    
+}
+
+a {
+    font-family: 'Bahnschrift', SemiBold;
+    font-size: 26px;
+}

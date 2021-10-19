@@ -1,0 +1,31 @@
+button {
+    color: #FFF;
+    background-color: #000000;
+    font-size: 23px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  input{
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+
+  label {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  margin: 120px 10px 10px 10px;
+}

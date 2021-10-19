@@ -1,0 +1,84 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Bahnschrift', SemiBold;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font: 35px/32px 'Bahnschrift', SemiBold;
+    text-align: center;
+  }
+
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  textarea,
+  select {
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+  
+  button {
+    padding: 6px 1px 6px 1px;
+    color: #FFF;
+    background-color: #000000;
+    font-size: 23px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 10px;
+    width: 100%;
+    border-width: 1px 1px 3px;
+    margin-bottom: 70px;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  
+  
+  @media screen and (min-width: 480px) {
+  
+    form {
+      max-width: 480px;
+    }
+  
+  }
+
+  h2 {
+    font-family: 'Bahnschrift', SemiBold;
+    margin: 0 0 0px;
+}

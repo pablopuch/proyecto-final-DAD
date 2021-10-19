@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+            <div class="card-body">
+                <form (ngSubmit)="submit()" #userForm="ngForm">
+                    <label for="user">Usuario:</label>
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]="user.name" name="name" #name="ngModel" required>
+                        <div *ngIf="name.invalid && name.dirty" class="alert">
+                            <div *ngIf="name.errors?.required">Campo requerido</div>
+                        </div>
+                    </div>
+                    <label for="user">Contraseña:</label>
+                    <div class="form-group">
+                        <input type="password" [(ngModel)]="user.password" name="password" #password="ngModel" required minlength="4">
+                        <div *ngIf="password.invalid && password.dirty" class="alert">
+                            <div *ngIf="password .errors?.required">Campo requerido</div>
+                            <div *ngIf="password .errors?.minlength">Mínimo 4 caracteres</div>
+                            </div>
+                    </div>
+                    <button class="button" [disabled]="!userForm .form.valid">Iniciar sesión</button>
+                </form>
+        </div>
+    </div>
+</div>
