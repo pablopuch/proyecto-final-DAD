@@ -9,7 +9,8 @@ export class LoginGuard implements CanActivate {
 
   constructor(private loginService: LoginService, private router: Router) {}
 
-  canActivate(): boolean {
+  canActivate() {
+    console.log("hola")
     if (this.loginService.loggedIn()) {
       console.log("entre en el login");
       return true;

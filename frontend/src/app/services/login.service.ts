@@ -13,6 +13,7 @@ export class LoginService {
   }
 
   loggedIn(){
+    console.log("tengo token")
     return !localStorage.getItem('token');
   }
 

@@ -26,6 +26,7 @@ export class LoginComponent implements OnInit {
         localStorage.setItem('personalToken',`${ data }`);
         console.log("fin");
         this.router.navigate(['/list']);
+        console.log("ir a productos")
       },
       (error: Error) => {
         console.error("Error al realizar el acceso-login");
