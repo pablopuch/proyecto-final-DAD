@@ -26,7 +26,7 @@ import { MenuComponent } from './menu/menu.component';
     HomeComponent,
     PedidosComponent,
     CarritoComponent,
-    MenuComponent
+    MenuComponent,
   ],
   imports: [
     BrowserModule,

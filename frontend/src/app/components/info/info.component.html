@@ -20,12 +20,11 @@
 
             <h2><b>Empleados</b></h2>
 
-            <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
                 <div id="slider">
-                    <figure>
-                        <img src="assets/img/empleado1.jpg" alt>
-                        <img src="assets/img/empleado2.jpg" alt>
-                        <img src="assets/img/empleado3.jpg" alt>
+                    <figure *ngFor="let empleado of empleados">
+                        <img src="{{ empleados[0].url }}" alt>
+                        <img src="{{ empleados[1].url }}" alt>
+                        <img src="{{ empleados[2].url }}" alt>
                     </figure>
                 </div>
     </div>
