@@ -13,6 +13,7 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginGuard } from './login.guard';
 import { PedidosComponent } from './components/pedidos/pedidos.component';
 import { CarritoComponent } from './components/carrito/carrito.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { CarritoComponent } from './components/carrito/carrito.component';
     InfoComponent,
     HomeComponent,
     PedidosComponent,
-    CarritoComponent
+    CarritoComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

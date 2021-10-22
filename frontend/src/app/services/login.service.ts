@@ -8,13 +8,20 @@ import { User } from '../models/user';
 export class LoginService {
   constructor() { }
 
+  
+
   login(user: User): Observable<number> {
     return of( Math.random() * (1000-0));
   }
 
   loggedIn(){
     console.log("tengo token")
-    return !localStorage.getItem('token');
+    const pablo = localStorage.getItem('personalToken');
+    console.log(pablo);
+    if (pablo  == null){
+      return false;
+    }
+    return true;
   }
 
   getToken() {

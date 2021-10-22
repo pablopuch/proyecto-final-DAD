@@ -7,5 +7,4 @@ import com.pablo.zapatillas.entity.models.Zapatilla;
 
 public interface IZapatillaDao extends CrudRepository<Zapatilla, Long>{
 
-
 }
